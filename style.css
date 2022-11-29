@@ -1,0 +1,66 @@
+body {
+    margin:0;
+	padding:0;
+	background:url("background.jpg");
+	background-size:cover;
+}
+body .container{
+    position:absolute;
+	top:50%;
+	left:50%;
+	transform: translate(-50%, -50%);
+    width: 500px;
+    background-color: #EEEEEE;
+    padding: 30px 10px;
+    border-radius: 5px;
+    background:rgb(65, 80, 87);
+    min-height: 500px;
+}
+.addTasks {
+    display: flex;
+    margin-right: 5px;
+}
+.addTasks input {
+    width: 100%;
+    height: 40px;
+    font-size: 20px;
+    margin: 0 10px;
+    border: none;
+    border-radius:3px;
+    background: transparent;
+    color:#fff;
+    border-bottom: 1px solid #fff;
+}
+.addTasks button {
+    border: none;
+    border-radius: 3px;
+    background: #dddddd;
+    font-weight: bold;
+    cursor: pointer;
+}
+h3 {
+    padding: 10px 10px;
+    color: #fff;
+}
+.tasks {
+    padding: 10px 0px;
+    margin: 0;
+    /* display:flex;
+    justify-content: space-between;   
+    margin-right: 50px; */
+}
+.tasks li {
+    display: flex;
+    list-style: none;
+    padding: 5px 0;
+}
+.tasks li span {
+    width: 80%;
+    /* background: #fff; */
+    color: #fff;
+}
+.tasks li i {
+    margin: 0 5px;
+    cursor: pointer;
+    color: #fff;
+}
